@@ -6,8 +6,8 @@ function sendEmail() {
   };
 console.log(JSON.parse(localStorage.getItem('selectedItems')))
 
-  const serviceID = "service_zc6xizc";
-  const templateID = "template_3vmxo3h";
+  const serviceID = "service_nti1xpf";
+  const templateID = "template_85gg2sk";
 
   emailjs
     .send(serviceID, templateID, params)
